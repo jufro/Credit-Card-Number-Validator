@@ -1,22 +1,23 @@
-﻿# ����� � ������������ Credit Card Number Validator
-### ������� ��������
-29.02.2020 ���� ��������� �������������� ������������ ���������� Credit Card Number Validator.
+﻿﻿# Отчёт о тестировании Credit Card Number Validator
+### Краткое описание
+29.02.2020 было проведено функциональное тестирование приложения Credit Card Number Validator.
 
-�� ������������ ���������: 1 ���
+На тестирование затрачено: 1 час
 
-� ���������� ������������ ������� �� ��������.
+В результате тестирования дефекты не выявлены.
 
-### �������� �������� ������������
+### Описание процесса тестирования
 
-� �������� ������������ �������������� ��������� ���������:
+В процессе тестирования использовались следующие артефакты:
 
-* ����-����: https://docs.google.com/spreadsheets/d/1qQ8cYYtzq9dROnGkt6wNoHIsqSonxbytO9BSth8cV2A/edit?usp=sharing
-* ����� � ������������
+* тест-кейсы: https://docs.google.com/spreadsheets/d/1qQ8cYYtzq9dROnGkt6wNoHIsqSonxbytO9BSth8cV2A/edit?usp=sharing
+* отчёт о тестировании
 
-� �������� �������� ������ �������������� ������ https://github.com/netology-code/javaqa-homeworks/blob/master/intro/idea.md
+В качестве тестовых данных использовались данные https://github.com/netology-code/javaqa-homeworks/blob/master/intro/idea.md
 
-��� ���������:
+код программы:
 
+```java
 public class Main {
   public static void main(String[] args) {
     
@@ -59,11 +60,11 @@ public class Main {
     return (result != 0) && (result % 10 == 0);
   }
 }
+```
 
+Тестирование производилось в следующем окружении:
 
-������������ ������������� � ��������� ���������:
-
-* �� Windows 10 x64
+* ОС Windows 10 x64
 * Java 11.0.6
 * IntelliJ IDEA 2019.3.3
 * git version 2.25.0.
