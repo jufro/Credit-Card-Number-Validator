@@ -1,4 +1,4 @@
-﻿﻿# Отчёт о тестировании Credit Card Number Validator
+# Отчёт о тестировании Credit Card Number Validator
 ### Краткое описание
 29.02.2020 было проведено функциональное тестирование приложения Credit Card Number Validator.
 
